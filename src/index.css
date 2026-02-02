@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Warm sage green palette - accessible for seniors */
+    --background: 60 20% 98%;
+    --foreground: 150 15% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 150 15% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 150 15% 20%;
+
+    /* Primary sage green */
+    --primary: 142 25% 35%;
+    --primary-foreground: 60 20% 98%;
+
+    /* Warm cream secondary */
+    --secondary: 45 30% 94%;
+    --secondary-foreground: 150 15% 20%;
+
+    --muted: 60 15% 93%;
+    --muted-foreground: 150 10% 45%;
+
+    /* Light sage accent */
+    --accent: 142 20% 90%;
+    --accent-foreground: 142 25% 30%;
+
+    --destructive: 0 65% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 142 15% 85%;
+    --input: 142 15% 85%;
+    --ring: 142 25% 35%;
+
+    --radius: 0.75rem;
+
+    /* Custom tokens for Amba */
+    --hero-gradient: linear-gradient(135deg, hsl(142 25% 35%) 0%, hsl(142 30% 28%) 100%);
+    --section-alt: 60 15% 96%;
+    --text-warm: 30 20% 30%;
+
+    --sidebar-background: 60 20% 98%;
+    --sidebar-foreground: 150 15% 30%;
+    --sidebar-primary: 142 25% 35%;
+    --sidebar-primary-foreground: 60 20% 98%;
+    --sidebar-accent: 142 20% 90%;
+    --sidebar-accent-foreground: 142 25% 30%;
+    --sidebar-border: 142 15% 85%;
+    --sidebar-ring: 142 25% 45%;
+  }
+
+  .dark {
+    --background: 150 20% 8%;
+    --foreground: 60 15% 95%;
+
+    --card: 150 15% 12%;
+    --card-foreground: 60 15% 95%;
+
+    --popover: 150 15% 12%;
+    --popover-foreground: 60 15% 95%;
+
+    --primary: 142 30% 50%;
+    --primary-foreground: 150 20% 8%;
+
+    --secondary: 150 15% 18%;
+    --secondary-foreground: 60 15% 95%;
+
+    --muted: 150 15% 18%;
+    --muted-foreground: 60 10% 65%;
+
+    --accent: 142 20% 25%;
+    --accent-foreground: 142 30% 75%;
+
+    --destructive: 0 55% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 150 15% 20%;
+    --input: 150 15% 20%;
+    --ring: 142 30% 50%;
+
+    --hero-gradient: linear-gradient(135deg, hsl(142 30% 25%) 0%, hsl(142 25% 18%) 100%);
+    --section-alt: 150 15% 10%;
+    --text-warm: 60 15% 80%;
+
+    --sidebar-background: 150 20% 8%;
+    --sidebar-foreground: 60 15% 95%;
+    --sidebar-primary: 142 30% 50%;
+    --sidebar-primary-foreground: 150 20% 8%;
+    --sidebar-accent: 142 20% 25%;
+    --sidebar-accent-foreground: 142 30% 75%;
+    --sidebar-border: 150 15% 20%;
+    --sidebar-ring: 142 30% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
