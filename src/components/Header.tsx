@@ -24,7 +24,7 @@ const Header = () => {
               <img
                 src={logo}
                 alt="Amba Speech Center logo"
-                className="w-full h-full object-contain"
+                className="w-full h-full object-cover"
                 loading="eager"
               />
             </div>
