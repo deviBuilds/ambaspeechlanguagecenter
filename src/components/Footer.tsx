@@ -1,5 +1,8 @@
 import { Phone, Mail } from "lucide-react";
 import logo from "@/assets/logo.webp";
+import ashaBadge from "@/assets/badges/asha-ccc-slp.webp";
+import pvpBadge from "@/assets/badges/pvp-circle-of-intent.png";
+import credlyBadge from "@/assets/badges/credly-lpaa.png";
 
 const Footer = () => {
   return (
@@ -63,11 +66,55 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom */}
-        <div className="pt-8 border-t border-background/20 text-center text-background/60">
-          <p>© {new Date().getFullYear()} Amba Speech and Language Center. All rights reserved.</p>
-          <p className="mt-2 text-sm">
-            ASHA Certified | Licensed Speak Out! Provider
+        {/* Certification Badges */}
+        <div className="pt-8 border-t border-background/20">
+          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 mb-8">
+            {/* ASHA Badge */}
+            <a
+              href="https://www.asha.org/certification/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center h-16 md:h-20 transition-opacity hover:opacity-80"
+            >
+              <img
+                src={ashaBadge}
+                alt="ASHA Certified CCC-SLP"
+                className="h-full w-auto object-contain brightness-0 invert opacity-90"
+              />
+            </a>
+
+            {/* Credly LPAA Badge */}
+            <a
+              href="https://www.credly.com/badges/9518017f-7c66-4fe8-9abe-0ec2da2f851b"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center h-16 md:h-20 transition-opacity hover:opacity-80"
+            >
+              <img
+                src={credlyBadge}
+                alt="Person-Centered Care: LPAA Practice Course"
+                className="h-full w-auto object-contain"
+              />
+            </a>
+
+            {/* PVP Circle of Intent Badge */}
+            <a
+              href="https://www.parkinsonvoiceproject.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center h-16 md:h-20 transition-opacity hover:opacity-80"
+            >
+              <img
+                src={pvpBadge}
+                alt="Parkinson Voice Project - Circle of Intent"
+                className="h-full w-auto object-contain"
+              />
+            </a>
+          </div>
+
+          {/* Copyright */}
+          <p className="text-center text-background/60">
+            © {new Date().getFullYear()} Amba Speech and Language Center. All rights reserved.
           </p>
         </div>
       </div>
