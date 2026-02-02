@@ -79,7 +79,7 @@ const Footer = () => {
               <img
                 src={ashaBadge}
                 alt="ASHA Certified CCC-SLP"
-                className="h-full w-auto object-contain brightness-0 invert opacity-90"
+                className="h-full w-auto object-contain"
               />
             </a>
 
