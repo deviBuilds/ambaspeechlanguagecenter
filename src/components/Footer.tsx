@@ -1,4 +1,5 @@
 import { Phone, Mail } from "lucide-react";
+import logo from "@/assets/logo.webp";
 
 const Footer = () => {
   return (
@@ -8,11 +9,13 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-                <svg viewBox="0 0 40 40" className="w-6 h-6 text-primary-foreground">
-                  <circle cx="20" cy="16" r="8" fill="none" stroke="currentColor" strokeWidth="2"/>
-                  <path d="M12 28 Q20 20 28 28" fill="none" stroke="currentColor" strokeWidth="2"/>
-                </svg>
+              <div className="w-10 h-10 rounded-full bg-background flex items-center justify-center overflow-hidden border border-background/30">
+                <img
+                  src={logo}
+                  alt="Amba Speech Center logo"
+                  className="w-full h-full object-contain"
+                  loading="eager"
+                />
               </div>
               <span className="text-xl font-semibold">Amba Speech Center</span>
             </div>

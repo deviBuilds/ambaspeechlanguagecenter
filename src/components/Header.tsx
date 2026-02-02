@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.webp";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,12 +20,13 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
-              <svg viewBox="0 0 40 40" className="w-8 h-8 text-primary-foreground">
-                <circle cx="20" cy="16" r="8" fill="none" stroke="currentColor" strokeWidth="2"/>
-                <path d="M12 28 Q20 20 28 28" fill="none" stroke="currentColor" strokeWidth="2"/>
-                <path d="M16 14 Q20 18 24 14" fill="none" stroke="currentColor" strokeWidth="1.5"/>
-              </svg>
+            <div className="w-12 h-12 rounded-full bg-background flex items-center justify-center overflow-hidden border border-border">
+              <img
+                src={logo}
+                alt="Amba Speech Center logo"
+                className="w-full h-full object-contain"
+                loading="eager"
+              />
             </div>
             <div>
               <span className="text-xl font-semibold text-foreground tracking-tight">
