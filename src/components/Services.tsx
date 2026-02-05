@@ -9,16 +9,6 @@ const Services = () => {
       description: "As a licensed Speak Out! provider, I use proven exercises to strengthen the voice and improve speech, helping you communicate better and stay engaged in everyday conversations.",
     },
     {
-      icon: Heart,
-      title: "Swallowing Therapy",
-      description: "Evidence-based swallowing therapy to improve safety and comfort with eating and drinking, helping you enjoy meals with greater confidence and quality of life.",
-    },
-    {
-      icon: Mic,
-      title: "Voice Disorders",
-      description: "Personalized treatment for hoarseness, vocal strain, and voice loss. Our therapy restores and strengthens your vocal function for clear, confident speaking.",
-    },
-    {
       icon: Brain,
       title: "Stroke Recovery",
       description: "Evidence-based therapy to improve understanding, word-finding, and everyday communication after stroke or brain injury.",
@@ -28,6 +18,17 @@ const Services = () => {
       title: "Memory & Cognition",
       description: "Enhance memory, attention, and problem-solving skills with personalized strategies that support independence and make everyday tasks easier.",
     },
+    {
+      icon: Heart,
+      title: "Swallowing Therapy",
+      description: "Evidence-based swallowing therapy to improve safety and comfort with eating and drinking, helping you enjoy meals with greater confidence and quality of life.",
+    },
+    {
+      icon: Mic,
+      title: "Voice Disorders",
+      description: "Personalized treatment for hoarseness, vocal strain, and voice loss. Our therapy restores and strengthens your vocal function for clear, confident speaking.",
+    },
+    
     {
       icon: Languages,
       title: "Accent Modification",

@@ -23,14 +23,14 @@ const Header = () => {
             <div className="w-12 h-12 rounded-full bg-background flex items-center justify-center overflow-hidden border border-border">
               <img
                 src={logo}
-                alt="Amba Speech Center logo"
+                alt="Amba Speech & Language Center logo"
                 className="w-full h-full object-cover"
                 loading="eager"
               />
             </div>
             <div>
               <span className="text-xl font-semibold text-foreground tracking-tight">
-                Amba Speech Center
+                Amba Speech & Language Center
               </span>
             </div>
           </a>

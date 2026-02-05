@@ -56,7 +56,7 @@ const HowItWorks = () => {
                   <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center">
                     <step.icon className="w-7 h-7 text-primary" />
                   </div>
-                  <span className="text-4xl font-bold text-primary/20">{step.step}</span>
+                  <span className="text-4xl font-bold text-primary">{step.step}</span>
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">{step.title}</h3>
                 <p className="text-muted-foreground text-lg leading-relaxed">{step.description}</p>

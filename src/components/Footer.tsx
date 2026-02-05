@@ -15,15 +15,15 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-full bg-background flex items-center justify-center overflow-hidden border border-background/30">
                 <img
                   src={logo}
-                  alt="Amba Speech Center logo"
+                  alt="Amba Speech & Language Center logo"
                   className="w-full h-full object-cover"
                   loading="eager"
                 />
               </div>
-              <span className="text-xl font-semibold">Amba Speech Center</span>
+              <span className="text-xl font-semibold">Amba Speech & Language Center</span>
             </div>
             <p className="text-background/70 leading-relaxed">
-              Personalized telehealth speech therapy for adults in Washington State.
+              Personalized  speech therapy for adults in Washington State.
             </p>
           </div>
 
@@ -50,14 +50,14 @@ const Footer = () => {
             <div className="space-y-3">
               <a 
                 href="tel:+14252877689" 
-                className="flex items-center gap-3 text-background/70 hover:text-background transition-colors"
+                className="flex items-center gap-3 text-lg text-background/70 hover:text-background transition-colors"
               >
                 <Phone className="w-5 h-5" />
                 +1 (425) 287-7689
               </a>
               <a 
                 href="mailto:info@ambaspeechcenter.com" 
-                className="flex items-center gap-3 text-background/70 hover:text-background transition-colors"
+                className="flex items-center gap-3 text-lg text-background/70 hover:text-background transition-colors"
               >
                 <Mail className="w-5 h-5" />
                 info@ambaspeechcenter.com

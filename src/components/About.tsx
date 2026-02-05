@@ -15,7 +15,7 @@ const About = () => {
     },
     {
       icon: Users,
-      title: "18+ Years",
+      title: "20 Years",
       description: "Clinical experience",
     },
     {

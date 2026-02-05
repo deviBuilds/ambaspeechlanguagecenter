@@ -14,7 +14,7 @@ const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-4 py-2 rounded-full text-base font-medium mb-8">
             <Video className="w-5 h-5" />
-            Telehealth Speech Therapy in Washington
+             Speech Therapy in Washington
           </div>
 
           {/* Main Heading */}
@@ -25,17 +25,17 @@ const Hero = () => {
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed mb-8 max-w-2xl">
-            Personalized speech therapy for adults with stroke, Parkinson's, and brain injury. 
+            Personalized speech therapy for Stroke, Parkinson's, Dementia and Brain Injury patients. 
             Get expert care from the comfort of your home.
           </p>
 
           {/* Key Benefits */}
-          <div className="flex flex-wrap gap-4 mb-10">
-            {["No Driving Required", "18+ Years Experience", "ASHA Certified"].map(benefit => <div key={benefit} className="flex items-center gap-2 text-foreground text-lg">
+          {/* <div className="flex flex-wrap gap-4 mb-10">
+            {["No Driving Required", "20 Years Experience", "ASHA Certified"].map(benefit => <div key={benefit} className="flex items-center gap-2 text-foreground text-lg">
                 <div className="w-2 h-2 rounded-full bg-primary" />
                 {benefit}
               </div>)}
-          </div>
+          </div> */}
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4">
@@ -63,21 +63,22 @@ const Hero = () => {
         <div className="mt-16 lg:mt-24 pt-12 border-t border-border">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">
             <div className="text-center">
-              <p className="font-serif text-3xl lg:text-4xl font-medium text-foreground">18+</p>
+              <p className="font-serif text-3xl lg:text-2xl font-medium text-foreground">20</p>
               <p className="mt-1 text-sm text-muted-foreground">Years Experience</p>
             </div>
             <div className="text-center">
-              <p className="font-serif text-3xl lg:text-4xl font-medium text-foreground">ASHA</p>
+              <p className="font-serif text-3xl lg:text-2xl font-medium text-foreground">ASHA</p>
               <p className="mt-1 text-sm text-muted-foreground">Board Certified</p>
             </div>
             <div className="text-center">
-              <p className="font-serif text-3xl lg:text-4xl font-medium text-foreground">WA & TX</p>
-              <p className="mt-1 text-sm text-muted-foreground">Licensed States</p>
+              <p className="font-serif text-3xl lg:text-2xl font-medium text-foreground">Speak Out! Provider</p>
+              <p className="mt-1 text-sm text-muted-foreground">Certified</p>
             </div>
             <div className="text-center">
-              <p className="font-serif text-3xl lg:text-4xl font-medium text-foreground">100%</p>
-              <p className="mt-1 text-sm text-muted-foreground">Online Sessions</p>
+              <p className="font-serif text-3xl lg:text-2xl font-medium text-foreground">WA</p>
+              <p className="mt-1 text-sm text-muted-foreground">Licensed States</p>
             </div>
+
           </div>
         </div>
       </div>

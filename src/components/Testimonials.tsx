@@ -47,7 +47,7 @@ const Testimonials = () => {
               className="bg-card hover:shadow-lg transition-all duration-300"
             >
               <CardContent className="p-8">
-                <Quote className="w-12 h-12 text-primary/30 mb-6" />
+                <Quote className="w-12 h-12 text-primary mb-6" />
                 <blockquote className="text-lg md:text-xl text-foreground leading-relaxed mb-6">
                   "{testimonial.quote}"
                 </blockquote>
